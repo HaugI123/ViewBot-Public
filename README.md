@@ -1,3 +1,5 @@
+THIS IS FOR USE ON A RASPBERRY PI base debian install. Updates for use on other OSes and DEs are not planned. 
+
 Step 1) Inside of a terminal install the following:
 chromium-chromedriver
 gnome-terminal
