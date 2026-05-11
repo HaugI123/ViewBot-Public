@@ -1,0 +1,6 @@
+python-dotenv
+validators
+discord.py
+selenium
+bs4
+fake_useragent
