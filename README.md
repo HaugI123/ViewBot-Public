@@ -1,11 +1,11 @@
-Step 1) open a terminal, sudo apt install the following:
+Step 1) Inside of a terminal install the following:
 chromium-chromedriver
 gnome-terminal
-Step 2) in a terminal, pip install -r requirements.txt
+Step 2) Also within terminal, pip install -r requirements.txt
 Step 3) open viewBot.py and verify the driver address is /usr/bin/chromedriver
-Step 4) in the terminal cd into /usr/bin. Verify chromedriver installed in the correct directory. If not cd ..; cd lib to check for the chromedriver file.
-Step 5) Install pi-apps using the command: wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash . After pi-apps has installed run pi-apps in a terminal or launch pi-apps from the search menu and install tor.
-Step 6) Verify the tor location in viewBot.py is set to the location on your pi that tor is installed to.
+Step 4) in the terminal: cd /usr/bin. Verify chromedriver installed in the correct directory. If not cd ..; cd lib to check for the chromedriver file. Move the chromedriver into /usr/bin if not found.
+Step 5) Install pi-apps: wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash . After pi-apps installation run pi-apps in a terminal or launch pi-apps from the search menu and install tor.
+Step 6) Verify the tor location in viewBot.py is set to the location that tor is installed to.
 Fin) If the files are installed in a different location change the paths in viewBot.py to wherever you find the files.
 
 Downgrade Chromium/chromedriver
